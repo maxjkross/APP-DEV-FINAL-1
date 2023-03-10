@@ -1,0 +1,66 @@
+<div>
+  <div>
+    <h1>
+      List of all banks
+    </h1>
+  </div>
+</div>
+
+
+<hr>
+
+<div>
+  <div>
+    <h2>
+      Add a new bank
+    </h2>
+
+    <form action="/insert_bank" method="post">
+      <div>
+        <label for="title_box">
+          Bank
+        </label>
+
+        <input type="text" id="title_box" name="query_name">
+      </div>
+
+      <div>
+        <label for="year_box">
+          Type of Bank eg. Bulge Bracket
+        </label>
+
+        <input type="text" id="type_box" name="query_type">
+      </div>
+
+      <div>
+        <label for="location_box">
+          Location
+        </label>
+
+        <input type="text" id="size_box" name="query_size">
+      </div>
+
+      <div>
+        <label for="location_box">
+          Specialty
+        </label>
+
+        <input type="text" id="specialty_box" name="query_specialty">
+      </div>
+
+      <div>
+        <label for="description_box">
+          Description
+        </label>
+
+        <textarea id="description_box" name="query_description" rows="3"></textarea>
+      </div>
+
+      <button>
+        Create bank
+      </button>
+    </form>
+  </div>
+</div>
+
+<hr>
